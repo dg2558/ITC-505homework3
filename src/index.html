@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Permanent Marker Font Example</title>
+  
+  <!-- Include the "Permanent Marker" font from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+
+  <!-- Add CSS to apply the font to all <h1> and <p> elements -->
+  <style>
+    /* Apply the font to all <h1> and <p> elements */
+    h1, p {
+      font-family: 'Permanent Marker', cursive;
+    }
+  </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+  <!-- Apply the font to a <h1> element -->
+  <h1 align="center">This text is styled with the "Permanent Marker" font.</h1>
+  
+  <!-- Apply the font to all <h1> and <p> elements within this section -->
+  <section align="center">
+    <article>
+      <h1>How to Include the "Permanent Marker" Font?</h1>
+      <!-- All the content within the following <p> elements will have the "Permanent Marker" font applied -->
+      <p> i use some tags to apply fonts for the written text are:</p>
+      <p>A "link" tag is used to include an external stylesheet from Google Fonts.</p>
+      <p>The "href" attribute specifies the URL of the font file, which is "https://fonts.googleapis.com/css?family=Permanent+Marker".</p>
+      <p>Google Fonts hosts the "Permanent Marker" font, and this URL is a reference to it.</p>
+      <h1>styling the font by using css</h1>
+      <p>Inside the "style" block, i define a CSS rule that applies the "Permanent Marker" font to specific elements on the page, specifically the "p" (paragraph) elements.</p> 
+      <p>that i achieve this by utilizing the font-family property, where i specified the preferred font family as 'Permanent Marker.' This instructs the browser to display the text within these selected elements using the "Permanent Marker" font whenever possible.</p>
+      <p>To ensure a graceful fallback in case the user's system lacks the "Permanent Marker" font, so that i include a secondary option: cursive. This value tells the browser to use a generic cursive-style font if the "Permanent Marker" font is unavailable. This thoughtful approach ensures that the text remains legible and maintains an attractive appearance even when the specific font isn't present on the user's device.</p>
+      <p>So, the combination of the <link> tag that imports the font from Google Fonts and the CSS rule that applies the font to <p> elements ensures that text within those elements is displayed using the "Permanent Marker" font when the HTML page is loaded in a web browser.</p>
+    </article>
+  </section>
 </body>
-
 </html>
+
+
